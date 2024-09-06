@@ -8,7 +8,7 @@
  }
 
  .container h2 {
-    font-size: 50pt;
+    font-size: 40pt;
     text-align: left;
  }
 
@@ -30,7 +30,7 @@
  .social-icons {
      margin-top: 20px;
      display: flex;
-     width: 30%;
+     width: 40%;
      justify-content: space-around;
  }
 
@@ -92,7 +92,7 @@
   }
 
   .form-input-label input {
-    width: 88%;
+    width: 80%;
     margin-bottom: 0;
   }
 
