@@ -121,6 +121,10 @@
   .individual {
     border-top: 4px solid #4a67f7;
   }
+
+  .individual .cadastrar {
+    border: none;
+  }
   
   .professional {
     border-top: 4px solid #fff;
