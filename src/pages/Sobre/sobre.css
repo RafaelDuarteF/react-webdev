@@ -107,6 +107,7 @@
   .cadastrar {
     border: 1px solid #000;
     background-color: #fff;;
+    transition: all 0.25s;
   }
   .individual .cadastrar {
     background-color: #4a67f7;
@@ -151,4 +152,8 @@
     border-radius: 15px;
   }
   
+  .cadastrar:hover {
+    cursor: pointer;
+    opacity: 70%;
+  }
   
