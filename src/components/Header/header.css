@@ -1,0 +1,46 @@
+header {
+    width: 100vw;
+    height: 15vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 50%;
+}
+
+nav li {
+    width: 100%;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14pt;
+    transition: all 0.25s
+}
+
+nav a:hover {
+    color: #f1356d;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        width: 100%;
+    }
+    
+}
